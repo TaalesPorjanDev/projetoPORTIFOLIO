@@ -2,11 +2,11 @@ header {
     background-image: url(../bg-1.png);
     background-size: cover;
     background-position: center center; 
-    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 10px;
    
     h2 {
         font: var(--subtitle);
@@ -47,7 +47,7 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 88px;
+    margin-top: 90px;
 
     ul {
         display: flex;

@@ -5,6 +5,7 @@ main {
     justify-content: center;
     align-items: center;
    
+    
 
     span {
         color: var(--red);
@@ -22,23 +23,27 @@ main {
 
 .projects-cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    padding: 0 120px;
     gap: 24px;
     
+
     figure {
         background-color: var(--gray-300);
-        padding: 12px;
+        padding: 20px;
         border-radius: 12px;
     }
 
     img {
+        width: 100%;
+       
         border-radius: 8px;
     }
 
 }
 
 figcaption {
-    margin-top: 20px;
+    margin-top: 24px;
     padding: 4px;
 
     h4 {
@@ -51,6 +56,7 @@ figcaption {
         margin-top: 8px;
         font: var(--text-sm);
         color: var(--gray-500);
+        
     }
 }
 
