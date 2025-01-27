@@ -1,0 +1,56 @@
+main {
+    margin-top: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+    span {
+        color: var(--red);
+        font: var(--subtitle);
+    }
+
+    h2{
+        margin-top: 8px;
+        font: var(--title-md);
+        color: var(--gray-600);
+        margin-bottom: 56px;
+        font-weight: bold;
+    }
+}
+
+.projects-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    
+    figure {
+        background-color: var(--gray-300);
+        padding: 12px;
+        border-radius: 12px;
+    }
+
+    img {
+        border-radius: 8px;
+    }
+
+}
+
+figcaption {
+    margin-top: 20px;
+    padding: 4px;
+
+    h4 {
+        font: var(--title-sm);
+        color: var(--gray-600);
+        font-weight: bold;
+    }
+
+    p {
+        margin-top: 8px;
+        font: var(--text-sm);
+        color: var(--gray-500);
+    }
+}
+
