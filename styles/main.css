@@ -38,7 +38,7 @@ main {
 
     figure:hover {
         border: 1px solid var(--gray-400);
-        transition: .4s linear;
+        
     }
 
     img {
