@@ -7,6 +7,7 @@ header {
     justify-content: center;
     align-items: center;
     padding-bottom: 10px;
+    margin-bottom: 56px;
    
     h2 {
         font: var(--subtitle);
@@ -80,6 +81,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 
