@@ -50,10 +50,7 @@
         
     }
 
-    li:hover {
-       border: 1px solid var(--blue);
-       
-    }
+    
 
     a {
     
@@ -63,13 +60,13 @@
 }
 }
 
+li:hover {
+    border: 1px solid var(--blue);
+}
+
 ul li:hover svg path { 
     fill: var(--blue)
 }
-
-
-
-
 
 .right-item {
     margin-left: auto;
