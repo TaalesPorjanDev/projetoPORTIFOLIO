@@ -68,13 +68,20 @@ header {
         padding: 8px 16px;
         align-items: center;
         border-radius: 20px;
+        border: 1px solid transparent;
     }
 
-    a {
+    .tagitem {
         font: var(--text-md);
         color: var(--gray-500);
     }
+
+   
+    
+
 }
+
+
 
 .arrow-down {
     margin-top: 98px;
